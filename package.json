@@ -7,7 +7,7 @@
   "module": "dist/ms-store-badge.bundled.js",
   "type": "module",
   "scripts": {
-    "build:prod": "concurrently \"tsc\" \"rollup --config rollup.confi.js\"",
+    "build:prod": "concurrently \"tsc\" \"rollup --config rollup.config.js\"",
     "build:dev": "concurrently \"tsc --watch\" \"npm run serve\"",
     "build": "npm run build:prod",
     "serve": "wds --watch",
